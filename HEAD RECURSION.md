@@ -23,7 +23,7 @@ To write a Python program to demonstrate **Head Recursion** by finding and print
 def fun(n):
     if n>0:
        fun(n-1)
-    print(fun(n),end=" "
+    print(fun(n),end=" ")
 def sum(num)
     total=0
     for digit in str(num):
