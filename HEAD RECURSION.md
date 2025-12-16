@@ -19,6 +19,7 @@ To write a Python program to demonstrate **Head Recursion** by finding and print
 7. **Stop**
 
 ## 💻 PROGRAM:
+~~~
 def fun(n):
     if n>0:
        fun(n-1)
@@ -32,6 +33,7 @@ num=int(input())
 if num%2!=0:
    num+=1
 fun(num)
+~~~
 ## OUTPUT
 ![image](https://github.com/user-attachments/assets/980bb578-88b8-4c54-9e62-8049bb1a952c)
 
